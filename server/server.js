@@ -42,4 +42,4 @@ app.delete("/api/users/:index", (req, res) => {
     res.json({ message: "User deleted", users });
 });
 
-app.listen(5002, () => console.log("Server started on port 5002"));
+app.listen(5002, () => console.log("Server started on port 5002"))
